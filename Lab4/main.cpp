@@ -12,8 +12,9 @@ int main() {
 		l.postMessage(m);
 		m.setMessage("Sergio");
 		l.postMessage(m);
-		l.quit();
+		m.setMessage("Studente-polito");
 		l.postMessage(m);
+		l.quit();
 	}
 	catch(std::exception& e){
 		std::cout << e.what() << std::endl;
